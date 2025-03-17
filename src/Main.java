@@ -4,6 +4,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) { // lek koe gae intelij, harus e onk tombol play, iku petek en
         Scanner scanner = new Scanner(System.in);
+        System.out.print("  _                    _    _          _   _   _             _ _ \n" +
+                " | |__  _   _   _     / \\  | |__   ___| | | | | | __ _  __ _| | |\n" +
+                " | '_ \\| | | | (_)   / _ \\ | '_ \\ / _ \\ | | | | |/ _` |/ _` | | |\n" +
+                " | |_) | |_| |  _   / ___ \\| |_) |  __/ | | |_| | (_| | (_| | | |\n" +
+                " |_.__/ \\__, | (_) /_/   \\_\\_.__/ \\___|_|  \\___/ \\__, |\\__,_|_|_|\n" +
+                "        |___/                                    |___/           \n");
         System.out.print("Masukkan jumlah maksimal slot parkir: ");
         int maxSlot = scanner.nextInt();
         ParkirManager parkirManager = new ParkirManager(maxSlot);
